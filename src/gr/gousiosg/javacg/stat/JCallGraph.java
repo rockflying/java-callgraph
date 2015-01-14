@@ -46,9 +46,10 @@ import org.apache.bcel.classfile.ClassParser;
 public class JCallGraph {
 
     public static void main(String[] args) {
+    	String[] argv = {"E:/Temp/test4j.jar", "E:/Temp/tddoi.jar"};
         ClassParser cp;
         try {
-            for (String arg : args) {
+            for (String arg : argv) {
 
                 File f = new File(arg);
                 
