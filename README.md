@@ -105,7 +105,7 @@ and exit timestamps for methods, thereby turning `javacg-dynamic` into
 a poor man's profiler. The format is the following:
 
 ```
-<>[stack_depth][thread_id]fqdn.class:method=timestamp_nanos
+<>[stack_depth]fqdn.class:method=timestamp_nanos
 ```
 
 The output line starts with a `<` or `>` depending on whether it is a method
